@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.js": "/memory-card/static/js/main.9dec0a3a.chunk.js",
+    "main.js.map": "/memory-card/static/js/main.9dec0a3a.chunk.js.map",
+    "runtime-main.js": "/memory-card/static/js/runtime-main.111e0d94.js",
+    "runtime-main.js.map": "/memory-card/static/js/runtime-main.111e0d94.js.map",
+    "static/js/2.1719e8d8.chunk.js": "/memory-card/static/js/2.1719e8d8.chunk.js",
+    "static/js/2.1719e8d8.chunk.js.map": "/memory-card/static/js/2.1719e8d8.chunk.js.map",
+    "index.html": "/memory-card/index.html",
+    "static/js/2.1719e8d8.chunk.js.LICENSE.txt": "/memory-card/static/js/2.1719e8d8.chunk.js.LICENSE.txt",
+    "static/media/barrett.61398505.jpg": "/memory-card/static/media/barrett.61398505.jpg",
+    "static/media/cantrell.836bac9f.jpg": "/memory-card/static/media/cantrell.836bac9f.jpg",
+    "static/media/clapton.256fbd4d.jpg": "/memory-card/static/media/clapton.256fbd4d.jpg",
+    "static/media/demarco.682ccbed.jpg": "/memory-card/static/media/demarco.682ccbed.jpg",
+    "static/media/fripp.2c996c10.jpg": "/memory-card/static/media/fripp.2c996c10.jpg",
+    "static/media/frusciante.e9baab68.jpg": "/memory-card/static/media/frusciante.e9baab68.jpg",
+    "static/media/gilmour.b1c77028.jpg": "/memory-card/static/media/gilmour.b1c77028.jpg",
+    "static/media/marr.3ba4e9c6.jpg": "/memory-card/static/media/marr.3ba4e9c6.jpg",
+    "static/media/page.d2b6a191.jpg": "/memory-card/static/media/page.d2b6a191.jpg",
+    "static/media/waters.32979bdd.jpg": "/memory-card/static/media/waters.32979bdd.jpg",
+    "static/media/wilson.00089bca.jpg": "/memory-card/static/media/wilson.00089bca.jpg",
+    "static/media/young.82f8eb42.jpg": "/memory-card/static/media/young.82f8eb42.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.111e0d94.js",
+    "static/js/2.1719e8d8.chunk.js",
+    "static/js/main.9dec0a3a.chunk.js"
+  ]
+}
