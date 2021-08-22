@@ -1,0 +1,133 @@
+:root {
+  --background: hsl(0, 0%, 85%);
+  --header: hsl(0, 0%, 70%);
+  --primary: hsl(240, 20%, 50%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Overpass', sans-serif;
+  color: hsl(0, 0%, 20%);
+}
+
+a {
+  text-decoration: none;
+  color: hsl(0, 0%, 20%);
+  font-weight: 600;
+}
+
+header {
+  background-color: var(--header);
+  width: 100%;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.2rem var(--primary) solid;
+}
+
+footer {
+  background-color: var(--header);
+  width: 100%;
+  padding: 0.3rem 0;
+  margin-top: 0.3rem;
+  border-top: 0.2rem var(--primary) solid;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--background);
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 60%;
+}
+
+.card {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.card p {
+  text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.5);
+}
+.card:hover {
+  transform: scale(1.02);
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+h1 {
+  margin: 0.3rem 0;
+  font-size: 2.5rem;
+  text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  font-size: 1.4rem;
+  text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.scoreboard {
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 1000px) {
+  .board {
+    grid-template-columns: repeat(3, 1fr);
+    width: 70%;
+  }
+
+  .scoreboard {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .board {
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+  }
+
+  .scoreboard {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .board {
+    grid-template-columns: 1fr;
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+  .scoreboard {
+    width: 90%;
+  }
+}

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Board from './Board';
 import Scoreboard from './Scoreboard';
 
@@ -13,16 +13,16 @@ const Game = (props) => {
       setScore(score + 1);
     } else {
       setClickedCards([]);
-      setBestScore(score);
       setScore(0);
+      if (bestScore === 0 || score > bestScore) return setBestScore(score);
     }
   };
 
   return (
-    <div>
+    <>
       <Scoreboard score={score} bestScore={bestScore} />
       <Board handleClick={handleClick} score={score} bestScore={bestScore} />
-    </div>
+    </>
   );
 };
 

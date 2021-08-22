@@ -33,10 +33,11 @@ const Board = (props) => {
 
   useEffect(() => {
     shuffleCards();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [props.score, props.bestScore]);
 
   return (
-    <div>
+    <div className="board">
       {data.map((item) => (
         <Card key={uniqid()} data={item} handleClick={props.handleClick} />
       ))}
